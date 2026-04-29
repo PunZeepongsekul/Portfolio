@@ -1,38 +1,45 @@
-# The tools I've used.
+# Related Tools
 - Cursor IDE
 - GitHub Repository
 - Command Line Tools for Xcode 26
 
-# The steps I've take.
-There're 3 main area that I had to work with
+# Key Action Items
+There are 3 main areas I need to focus
 
-## Github Setup.
-1. Account registration.
-2. Create repository named 'Portfolio'
+## 1. GitHub Setup
+1.1 Complete account registration.
+2.2 Create a repository named "Portfolio."
 
-## Cursor IDE Setup.
-1. Download & Install Cursor IDE.
-2. Connect Cursor with Github account (Give Cursor access to only 'Portfolio.git')
-3. Add 'Codex (Open AI)' , 'Claude Code (Antrophic)' , 'Gemini Code Assistance and Gemini CLI (Google)' extension in Cursor.
+## 2. Cursor IDE Setup
+2.1 Download and install the Cursor IDE.
+2.2 Connect Cursor to your GitHub account (Grant access to the "Portfolio" repository only).
+2.3 Install the Codex (OpenAI), Claude Code (Anthropic), and Gemini Code Assist / Gemini CLI (Google) extensions within Cursor.
 
-## Push project file to GitHub
-1. Create 'README.md' files in Cursor and documenting everything.
-2. Using Cursor AI agent to push this file to my GitHub repository.
+## 3. Push Project Files to GitHub
+3.1 Create a README.md file in Cursor and document the project details.
+3.2 Use the Cursor AI Agent to push this file to your GitHub repository.
 
-# Challenges
+## Challenges & Solutions
 
-## Challenge 1 – Can't connect GitHub to my local.
-- **Cause***: My Macbook didn't had 'Command Line tools' installed. I'm unable to clone or connect to my 'Portfolio repository'
-- **Solution**: After explore all the 3rd party Git I decided to go with 'Command Line Xcode26' from Apple developer resource page (due to competibility and security reason)
+### Challenge 1: Unable to connect GitHub to the local machine
+- **Cause:** My MacBook didn't have Command Line Tools installed, preventing me from cloning or connecting to the "Portfolio" repository.
 
-## Challenge 2 – Can not find 'Extension tabs' in Cursor.
-- **Cause**: Due to new version update, Cursor direct me to Agent window by default.
-- **Solution**: Explore all the settings, and finally found 'Editor Windows'.
+- **Solution:** After exploring third-party Git clients, I decided to install Command Line Tools for Xcode 26 from the Apple Developer resource page for better compatibility and security.
 
-## Challenge 3 – Can't using Claude Code to Cursor.
-- **Cause**: It's required Pro or Max subscribtion plan to proceed.
-- **Solution**: I decide to use 'Gemini Code Assistance and Gemini CLI' instead because I've already subscribed to Pro plan. If this LM doesn't fits the project activity I happy to subscribe to Claude Pro.
 
-## Challenge 4 – Cognitive overload due to solving lots of technical problem.
-- **Cause**: Trying to solve multiple problem at once and none of it were resolved.
-- **Solution**: Research & create troubleshoot list before jump into solving problem will help optimize cognitive load.
+### Challenge 2: Cannot find the "Extensions" tab in Cursor
+- **Cause:** Due to a recent version update, Cursor directs users to the Agent window by default.
+
+- **Solution:** After exploring the settings, I located the extensions under the Editor Windows section.
+
+
+### Challenge 3: Unable to log in to Claude Code in Cursor
+- **Cause:** A Pro or Max subscription plan is required to proceed.
+
+- **Solution:** I decided to use Gemini Code Assist and the Gemini CLI instead, as I already have a Pro subscription. If this LLM does not meet the project needs, I am happy to subscribing to Claude Pro.
+
+
+### Challenge 4: Cognitive overload from troubleshooting
+- **Cause:** Attempting to solve multiple technical problems simultaneously resulted in none of them being fully resolved.
+
+- **Solution:** Researching and creating a structured troubleshooting list before diving into fixes will help optimize my cognitive load and focus.
